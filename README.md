@@ -8,7 +8,7 @@ This is how it works:
 > 3.   The resulting binaries for FFmpeg and its dependencies will be placed into the build/ directory.
 
 
-For now, this have only been tested in OS X with NDK r9d, so feel free to improve it and send a pull request :)
+For now, this have only been tested in OS X and Ubuntu 12.04 with NDK r9d, so feel free to improve it and send a pull request :)
 
 ### Contributions
 

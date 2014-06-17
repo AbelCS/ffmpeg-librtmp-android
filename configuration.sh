@@ -14,7 +14,7 @@ ARM_TARGET_ARCH=arm # Supported: arm, armv6, armv7-vfp, armv7-vfpv3
 
 # This values may need to be modified depending on your NDK.
 SYSROOT=$NDK/platforms/$ANDROID_TAGET_PLATFORM/arch-arm/
-TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64
+TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.8/prebuilt/"$(uname |tr '[:upper:]' '[:lower:]')"-x86_64
 
 #####################
 # // CONFIGURATION  #
